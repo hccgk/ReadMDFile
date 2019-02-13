@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  duojia4iOS
+//
+//  Created by 何川 on 2018/10/9.
+//  Copyright © 2018年 duojia. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define LBXScan_Define_Native
+#define LBXScan_Define_UI
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+#define kMainCellColor [UIColor colorWithRed:248/255.0 green:248/255.0 blue:255/255.0 alpha:1]
+
+#define kInputViewHeight 50
+
+#define QM_IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
+
+#define kScreenHeight (QM_IS_IPHONEX ? ([[UIScreen mainScreen] bounds].size.height - 34) : ([[UIScreen mainScreen] bounds].size.height))
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+
+#import "Kdefine.h"
+
+#endif
+
+#endif
+/* PrefixHeader_pch */
