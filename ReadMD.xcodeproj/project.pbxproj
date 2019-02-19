@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E2CEC6A221634C8007CD1D9 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0E2CEC69221634C8007CD1D9 /* Location.gpx */; };
 		0E71B6B322127281000C3955 /* MMMarkdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E71B6B222127281000C3955 /* MMMarkdown.framework */; };
 		0E71B6B82212C0BB000C3955 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71B6B72212C0BB000C3955 /* MainViewController.m */; };
 		0E71B6C02212C660000C3955 /* MDFileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71B6BF2212C660000C3955 /* MDFileTableViewCell.m */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E2CEC69221634C8007CD1D9 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		0E71B6B222127281000C3955 /* MMMarkdown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMMarkdown.framework; path = Carthage/Build/iOS/MMMarkdown.framework; sourceTree = "<group>"; };
 		0E71B6B62212C0BB000C3955 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		0E71B6B72212C0BB000C3955 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				0EB4E0F822110EE70028F3A4 /* ViewController.m */,
 				0EB4E126221114B40028F3A4 /* ReadMDViewController.h */,
 				0EB4E127221114B40028F3A4 /* ReadMDViewController.m */,
+				0E2CEC69221634C8007CD1D9 /* Location.gpx */,
 				0E71B74E2213C9FB000C3955 /* NSArray+JKSafeAccess.h */,
 				0E71B74D2213C9FB000C3955 /* NSArray+JKSafeAccess.m */,
 				0E71B7452213C511000C3955 /* BMChineseStringSort */,
@@ -327,6 +330,7 @@
 			files = (
 				0E71B7392212CB78000C3955 /* files in Resources */,
 				0EB4E10122110EE80028F3A4 /* LaunchScreen.storyboard in Resources */,
+				0E2CEC6A221634C8007CD1D9 /* Location.gpx in Resources */,
 				0EB4E0FE22110EE80028F3A4 /* Assets.xcassets in Resources */,
 				0EB4E0FC22110EE70028F3A4 /* Main.storyboard in Resources */,
 			);
